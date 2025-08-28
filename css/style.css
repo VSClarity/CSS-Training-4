@@ -1,0 +1,19 @@
+/* Комбинаторы */
+h1, p {
+    font-style: italic;
+    border: 3px solid green;
+}
+
+section > h2, p  {
+    text-align: center;
+}
+section h2 {
+    color: brown;
+}
+
+h2 + p {
+    background-color: yellowgreen ;
+}
+h2+p~p {
+    border: 5px solid red;
+}
