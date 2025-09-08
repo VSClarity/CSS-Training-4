@@ -2,25 +2,44 @@
   box-sizing: border-box;
 }
 
-header {
-  background-color: #25744a;
-  min-height: 100vh;
-  padding: 50px;
-  text-align: center;
+header,
+div,
+footer {
+  border: 5px solid red;
+}
+
+nav, main {
+  border: 3px solid green;
+}
+
+body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-  border: 2px solid red;
-  padding: 10px 20px;
+header,
+footer {
+  width: 100%;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5em;
+div {
+  max-width: 100px;
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+}
+
+
+nav {
+  width: 25%;
+}
+
+main {
+  width: 75%;
+}
+
+footer {
+  margin-top: auto;
 }
