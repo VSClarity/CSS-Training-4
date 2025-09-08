@@ -2,30 +2,25 @@
   box-sizing: border-box;
 }
 
-.OuterBlock {
-  border: 5px solid red;
-  height: 600px;
-  gap: 10px;
-}
-
-.InnerBlock {
-  border: 5px solid green;
-  padding: 30px;
-  font-size: 3rem;
-}
-
-.FlexParent {
+header {
+  background-color: #25744a;
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
   display: flex;
-  flex-direction:row;
-  justify-content:flex-start;
-  align-items:flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.FlexChild {
-    
+a {
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid red;
+  padding: 10px 20px;
 }
 
-.Child3 {
-  
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
 }
