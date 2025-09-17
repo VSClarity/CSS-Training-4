@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSCss</title>
     <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="parent">
-      <div class="child child1">1</div>
-      <div class="child child2">2</div>
-      <div class="child child3">3</div>
-      <div class="child child4">4</div>
-      <div class="child child5">5</div>
-      <div class="child child6">6</div>
-    </div>
-    <p class="par">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sit tempore quo ipsum eius, fugiat, eveniet maiores voluptatibus beatae eos voluptas, exercitationem ab ad corrupti a quis ex magnam laudantium.</p>
+    <ul class="usersList">
+      <li class="userListItem">
+        <div class="userImageWrapper">
+          <img
+            src="https://images.pexels.com/photos/19928318/pexels-photo-19928318.jpeg"
+            alt="userPhoto"
+          />
+        </div>
+        <div>
+          <h2 class="userName">Lorem, ipsum dolor.</h2>
+          <div class="userDescription">Lorem.</div>
+        </div>
+        <button class="trashButton">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </li>
+    </ul>
   </body>
 </html>
