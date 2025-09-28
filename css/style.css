@@ -2,30 +2,46 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 15px;
+a {
+  color: inherit;
 }
 
-img {
-  width: 150px;
+a:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(232, 207, 255);
+  text-shadow: 3px 5px gray;
 }
 
-.userCard {
+button {
+  background-color: transparent;
+  border: none;
 }
 
-.editBtn {
+button:hover {
+  color: red;
+  text-shadow: 13px 15px gray;
 }
 
-.userImg {
+a:link {
+  color: rebeccapurple;
 }
 
-.memberSection {
+a:visited {
+  color: red;
 }
 
-.cardFooter {
+a:active {
+  background-color: aqua
 }
 
-.socialLink {
+input {
+  outline: none;
+  border: 1px solid black;
+
 }
 
-.socialLinkItem
+input:focus {
+  background-color: aquamarine;
+}
