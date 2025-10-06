@@ -2,46 +2,15 @@
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
+
+article * {
+  margin-bottom: 15px;
 }
 
-a:hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-color: rgb(232, 207, 255);
-  text-shadow: 3px 5px gray;
+article :nth-child(1) {
+  font-style: italic;
 }
 
-button {
-  background-color: transparent;
-  border: none;
-}
-
-button:hover {
-  color: red;
-  text-shadow: 13px 15px gray;
-}
-
-a:link {
-  color: rebeccapurple;
-}
-
-a:visited {
-  color: red;
-}
-
-a:active {
-  background-color: aqua
-}
-
-input {
-  outline: none;
-  border: 1px solid black;
-
-}
-
-input:focus {
-  background-color: aquamarine;
+article :last-child {
+  font-weight: bold;
 }
