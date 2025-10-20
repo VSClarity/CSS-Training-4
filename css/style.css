@@ -7,10 +7,6 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   position: relative;
   color: white;
@@ -42,10 +38,9 @@ header:hover .bg {
   filter: blur(0);
 }
 
-button {
-  transition: transform 0.3s;
-}
-
-button:hover {
-  transform: scale(2);
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
