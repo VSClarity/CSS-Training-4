@@ -2,45 +2,21 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
+.outer-container {
+  border: 2px solid green;
 }
 
-header {
-  min-height: 100vh;
-  position: relative;
-  color: white;
+.inner-block {
+  border: 2px solid red;
 }
 
-.bg {
-  background-image: url(https://images.pexels.com/photos/28638996/pexels-photo-28638996.jpeg);
-  background-size: cover;
-  filter: blur(10px);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-rows: 100px;
+  grid-auto-flow: row;
+  grid-auto-rows: 100px;
 }
 
-h1,
-.bg {
-  font-size: 2.5rem;
-  transition: filter 0.3s ease-in;
-}
-
-header:hover h1 {
-  filter: blur(3px);
-}
-
-header:hover .bg {
-  filter: blur(0);
-}
-
-h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.grid-child {
 }
